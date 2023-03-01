@@ -1,0 +1,1050 @@
+*{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #1C1F26;
+    overflow-x: hidden;
+}
+body.open{
+    overflow-y: hidden;
+}
+/*----------------------global----------------------*/
+li{
+    color: rgb(silver);
+}
+
+/*-----------x-----------global-----------x-----------*/
+
+/*----------------------First Header----------------------*/
+/*----------------------Start----------------------*/
+.firsthder{
+    top: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background: #1C1F26;
+}
+.firsthder div{
+    display: flex;
+    gap: 35px;
+    margin-left: 1335px;
+    align-items: center;
+}
+.firsthder div svg{
+    width: 28px;
+    height: 28px;
+    fill: #8a8a8a;
+}
+.firsthder div svg:hover{
+    fill: white;
+}
+.firsthder div .change1{
+    width: 20px;
+    height: 20px;
+}
+.firsthder div .change2{
+    width: 20px;
+    height: 20px;
+}
+.firsthder div .change3{
+    width: 30px;
+    height: 30px;
+}
+/*----------------------End----------------------*/
+
+/*----------------------Top-Bar----------------------*/
+/*----------------------Start----------------------*/
+.topbar.open{
+    position: sticky;
+    height: 400px;
+    width: 100%;
+    background: #1C1F26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    transition: 0.5s;
+}
+.topbar.open{
+    overflow-y: hidden;
+}
+.topbar.open a{
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+.topbar.open a:hover{
+    transform: translateY(-10%);
+}
+.topbar.open a img{
+    width: 40px;
+    height: 40px;
+}
+.topbar.topbar.open a p{
+    color: white;
+}
+.topbar{
+    height: 0;
+    width: 100%;
+    background: #1C1F26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    transition: 0.5s;
+}
+.topbar a{
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+.topbar a img{
+    width: 0;
+    height: 0;
+    transition: 0.5s;
+}
+.topbar a p{
+    color: transparent;
+    transition: 0.3s;
+}
+/*----------------------End----------------------*/
+
+/*----------------------Second Header----------------------*/
+/*----------------------Start----------------------*/
+.sechder{
+    top: 0;
+    position: sticky;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: white;
+    align-items: center;
+}
+
+.sechder a img{
+    width: 142px;
+    margin-top: 5px;
+    margin-left: 48px;
+}
+
+.sechder .button{
+    margin-left: 55px;
+    display: flex;
+}
+
+.sechder .button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.sechder .button span{
+    margin-top: -10px;
+    font-size: 15px;
+    transition: 0s;
+}
+.sechder .button svg, .bth8 svg{
+    height: 24px;
+    width: 24px;
+    margin-top: -11.75px;
+    transition: 0.5s;
+}
+.sechder .bth8 svg{
+    margin-top: 0px;
+}
+.sechder .bth8 span{
+    margin-left: 12px;
+}
+/*----------------------Function----------------------*/
+/*----------------------Start----------------------*/
+
+.sechder .button .bth1{
+    width: 170px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+    
+}
+.sechder .button .bth1:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth1:hover{
+    color: #FF5114;
+}
+.sechder .button .bth1 div{
+    position: absolute;
+    height: 0px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.sechder .button .bth1:hover div{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin-top: 265px;
+    margin-left: 200px;
+    border-radius: 5px;
+    background: white;
+}
+.sechder ul{
+    list-style: none;
+}
+.sechder ul li{
+     position: relative;
+}
+.sechder ul li a{
+    display: block;
+    text-decoration: none;
+}
+
+.sechder .button .bth2{
+    width: 110px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth2:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth2:hover{
+    color: #FF5114;
+}
+.sechder .button .bth2 div{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 125px;
+    border-radius: 5px;
+}
+.sechder .button .bth2:hover div{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    margin-top: 365px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth3{
+    width: 120px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth3:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth3:hover{
+    color: #FF5114;
+}
+.sechder .button .bth3 div{
+    position: absolute;
+    height: 0px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+.sechder .button .bth3:hover div{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 315px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth4{
+    width: 170px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth4:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth4:hover{
+    color: #FF5114;
+}
+.sechder .button .bth4 div{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.sechder .button .bth4:hover div{
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    margin-top: 465px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth5{
+    width: 140px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth5:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth5:hover{
+    color: #FF5114;
+}
+.sechder .button .bth5 div{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.sechder .button .bth5:hover div{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    margin-top: 265px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth6{
+    width: 160px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth6:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth6:hover{
+    color: #FF5114;
+}
+.sechder .button .bth6 div{
+    position: absolute;
+    height: 0px;
+    width: 225px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.sechder .button .bth6:hover div{
+    position: absolute;
+    height: 200px;
+    width: 225px;
+    margin-top: 265px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth7{
+    width: 200px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth7:hover{
+    color: #FF5114;
+}
+
+.sechder .bth8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21px;
+    width: 173px;
+    height: 44px;
+    background: #FF5114;
+    border: none;
+}
+.sechder .bth8 div{
+    transition: 0.5s;
+}
+.sechder .bth8:hover svg{
+    transform: scaleY(-1);
+}
+.sechder .bth8 div{
+    position: absolute;
+    height: 0px;
+    width: 225px;
+    margin-top: 55px;
+    margin-left: -52px;
+    border-radius: 5px;
+    background: white;
+}
+.sechder .bth8:hover div{
+    position: absolute;
+    height: 400px;
+    width: 225px;
+    margin-top: 475px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+/*----------------------End----------------------*/
+
+
+.page1 .thewgame{
+    margin: 0;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/satl1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.page1 .thewgame h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 50vh;
+    
+}
+.page1 .thewgame p{
+    
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 50vh;
+}
+.page1 .thewgame img{
+    height: 25vh;
+    width: 50vh;
+}
+
+
+
+
+
+
+
+/*----------------------Page8----------------------*/
+.page2{
+    height: 10vh;
+    width: 100%;
+    background-color: #1C1F26;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vh 0;
+}
+
+.page2 .box{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2 .box .all-logo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 0;
+    animation: all-logo 60s linear infinite;
+}
+.page2 .box .all-logo img{
+    width: 3000px;
+}
+@keyframes all-logo{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%)
+    }
+}
+
+
+/*----------------------Page3----------------------*/
+
+.page3 .onlyinfifa23{
+    height: 50vh;
+    width: 100%;
+    background: url(/images/satl2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page3 .onlyinfifa23 h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.page3 .onlyinfifa23 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: -5vh 50vh;
+    font-size: 20px;
+}
+
+/*----------------------Page3----------------------*/
+
+/*----------------------Page13----------------------*/
+.page13 .juve{
+    height: 150vh;
+    width: 100%;
+    background: url(/images/satl10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+
+}
+.page13 .juve img{
+margin-top: 30vh;
+}
+.page13 .juve h1{
+    margin-top: 30vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 20vh;
+    margin-left: 130vh;
+    }
+.page13 .juve p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 20vh;
+    margin-left: 130vh;
+}
+
+.page13 .juve .btnn1{
+    background: transparent;
+    border-radius: 5px;
+    width: 30vh;
+    height: 60px;
+    border-color: white;
+    margin-right: 20vh;
+    margin-left: 130vh;
+    margin-top: 2vh;
+}
+.page13 .juve .btnn1 a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page13 .juve .btnn1:hover{
+    transform: scale(105%);
+}
+
+
+/*----------------------Page13----------------------*/
+
+/*----------------------Page4----------------------*/
+.page4 .epl{
+        margin-top: -40vh;
+        height: 130vh;
+        width: 100%;
+        background: url(/images/satl3.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffffff;
+        text-align: left;
+
+}
+.page4 .epl img{
+    margin-top: 30vh;
+}
+.page4 .epl p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 130vh;
+    margin-left: 15vh;
+}
+
+
+/*----------------------Page4----------------------*/
+
+/*----------------------Page5----------------------*/
+.page5 .laliga{
+    margin-top: -30vh;
+    height: 100vh;
+    width: 100%;
+    background: url(/images/satl4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+
+}
+.page5 .laliga img{
+    margin-top: 20vh;
+}
+
+.page5 .laliga p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 18px;
+margin-right: 130vh;
+margin-left: 15vh;
+}
+/*----------------------Page5----------------------*/
+
+/*----------------------Page6----------------------*/
+.page6 .bundesliga{
+    margin-top: 0;
+    height: 130vh;
+    width: 100%;
+    background: url(/images/satl5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    text-align: right;
+
+}
+.page6 .bundesliga img{
+    margin-top: 15vh;
+}
+
+.page6 .bundesliga p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 18px;
+margin-left: 100vh;
+margin-top: 25vh;
+margin-right: 15vh;
+}
+/*----------------------Page6----------------------*/
+
+/*----------------------Page7----------------------*/
+.page7 .seriea{
+margin-top: -10vh;
+    height: 150vh;
+    width: 100%;
+    background: url(/images/satl6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+
+}
+.page7 .seriea img{
+margin-top: 10vh;
+}
+.page7 .seriea p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 18px;
+margin-right: 130vh;
+margin-left: 15vh;
+}
+/*----------------------Page7----------------------*/
+
+/*----------------------Page8----------------------*/
+.page8 .l1{
+    margin-top: -60vh;
+    height: 150vh;
+    width: 100%;
+    background: url(/images/satl7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    text-align: right;
+
+}
+
+.page8 .l1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 110vh;
+    margin-top: 25vh;
+    margin-right: 50vh;
+}
+/*----------------------Page8----------------------*/
+
+/*----------------------Page12----------------------*/
+.page12 .mls{
+    margin-top: -40vh;
+    height: 150vh;
+    width: 100%;
+    background: url(/images/satl8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+
+}
+.page12 .mls img{
+margin-top: 30vh;
+}
+.page12 .mls p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 18px;
+margin-right: 130vh;
+margin-left: 15vh;
+}
+/*----------------------Page12----------------------*/
+
+/*----------------------Page13----------------------*/
+.page13 .spl{
+    margin-top: -20vh;
+    height: 140vh;
+    width: 100%;
+    background: url(/images/satl9.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+
+}
+.page13 .spl img{
+margin-top: 30vh;
+}
+.page13 .spl p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 18px;
+margin: 0 38%;
+}
+/*----------------------Page13----------------------*/
+
+/*----------------------Page14----------------------*/
+.page14 .s100{
+    margin-top: -40vh;
+    height: 100vh;
+    width: 100%;
+    background: url(/images/satl11.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+    justify-content: center;
+
+}
+.page14 .s100 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+.page14 .s100 p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 18px;
+margin: 0 20%;
+}
+.page14 .s100 .btnn2{
+    background: transparent;
+    border-radius: 5px;
+    width: 30vh;
+    height: 60px;
+    border-color: white;
+    margin-top: 2vh;
+    justify-content: center;
+}
+.page14 .s100 .btnn2 a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page14 .s100 .btnn2:hover{
+    transform: scale(105%);
+}
+
+/*----------------------Page14----------------------*/
+
+/*----------------------Page9----------------------*/
+/*----------------------Start----------------------*/
+.page9{
+    margin: 0;
+    height: 430px;
+    width: 100%;
+    background-image: url(/images/mbappe-kerr.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.page9 div{
+    padding-left: 45px;
+    height: 100%;
+    width: 700px;
+}
+.page9 div main{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page9 div .logo{
+    padding-top: 20px;
+    width: 550px;
+}
+.page9 div main h1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 77px;
+    padding-right: 100px;
+    margin-bottom: 15px;
+}
+.page9 div main span{
+    font-size: 17px;
+    color: #434343;
+    padding-left: 78px;
+    padding-right: 80px;
+}
+.page9 div main a{
+    margin-top: 20px;
+    margin-left: -345px;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    width: 80px;
+    color: white;
+    background: #201E20;
+    border: 1.7px solid transparent;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+.page9 div main a:hover{
+    transform: scale(105%);
+}
+/*----------------------End----------------------*/
+
+/*----------------------TextI----------------------*/
+/*----------------------Start----------------------*/
+.text1{
+    height: 80px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------End----------------------*/
+
+/*----------------------TextII----------------------*/
+/*----------------------Start----------------------*/
+.text2{
+    padding-left: 150px;
+    height: 65px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+    background: #1C1F26;
+    display: flex;
+    align-items: center;
+}
+.text2 a{
+    color: #FF5114;
+}
+/*----------------------End----------------------*/
+
+/*----------------------PageX----------------------*/
+/*----------------------Start----------------------*/
+.page10{
+    height: 370px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #252325;
+}
+.page10 .chl1{
+    height: 120px;
+    width: 75%;
+    display: flex;
+    border-bottom: 1px solid #8a8a8a;
+}
+.page10 .chl1 .fifa23{
+    height: 100%;
+    width: 700px;
+    color: rgb(222, 222, 222);
+}
+.page10 .chl1 .fifa23 h3{
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.page10 .chl1 .fifa23 div{
+    display: flex;
+    gap: 40px;
+}
+.page10 .chl1 .fifa23 a{
+    font-size: 15px;
+    color: #8a8a8a;
+}
+.page10 .chl1 .fifa23 a:hover{
+    color: #FF5114;
+}
+.page10 .chl1 .media{
+    margin-left: 240px;
+    height: 100%;
+    width: 250px;
+}
+.page10 .chl1 .media h3{
+    line-height: 0;
+    padding-left: 110px;
+    margin-bottom: 30px;
+    color: rgb(222, 222, 222);
+}
+.page10 .chl1 .media div{
+    padding-left: 0px;
+    display: flex;
+    gap: 40px;
+}
+.page10 .chl1 .media div svg{
+    height: 30px;
+    width: 30px;
+    fill: rgb(222, 222, 222);
+    transition: 0.2s;
+}
+.page10 .chl1 .media div svg:hover{
+    transform: scale(120%);
+}
+.page10 .chl2{
+    height: 140px;
+    width: 75%;
+}
+.page10 .chl2 img{
+    padding-top: 30px;
+}
+.page10 .chl2 .rate{
+    margin-left: 1002.25px;
+}
+/*----------------------End----------------------*/
+/*----------------------PageXI----------------------*/
+/*----------------------Start----------------------*/
+.page11{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+.page11 .chl1 img{
+    padding-top: 30px;
+    padding-right: 20px;
+    width: 64px;
+}
+.page11 .chl2 .header{
+    display: flex;
+    gap: 60px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page11 .chl2 .text{
+    display: flex;
+    gap: 40px;
+    line-height: 0;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page11 .chl2 .change{
+    line-height: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page11 .chl2 #change{
+    margin-top: 40px;
+}
+.page11 .chl3{
+    padding: 25px;
+}
+.page11 .chl3 img{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.page11 .chl3 div{
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    width: 70px;
+    color: #4c4c4c;
+    background: transparent;
+    border: 1.7px solid #8a8a8a;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+.page11 .chl3 div:hover{
+    transform: scale(105%);
+}
+/*----------------------End----------------------*/
+
+

@@ -1,0 +1,199 @@
+*{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #1d2033;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------Start----------------------*/
+.logo{
+    margin-top: 30px;
+    display: flex;
+    color: white;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-btn{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.icon-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: white;
+}
+.icon-btn a:nth-child(2){
+    background: #1877f2;
+}
+.icon-btn a:nth-child(4){
+    background: black;
+}
+.icon-btn a:nth-child(5){
+    background: #107c10;
+}
+.icon-btn a:nth-child(6){
+    background: #0049a0;
+}
+.icon-btn a img{
+    width: 24px;
+    height: 24px;
+}
+.icon-btn a:hover{
+    transform: scale(95%);
+}
+
+.text{
+    color: #908e97;
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.text::after{
+    content: '';
+    height: 2px;
+    width: 190px;
+    border-radius: 10px;
+    background: #484d6c;
+}
+.text::before{
+    content: '';
+    height: 2px;
+    width: 190px;
+    border-radius: 10px;
+    background: #484d6c;
+}
+
+.user{
+    margin-top: 25px;
+    color: white;
+}
+.user p{
+    font-size: 14px;
+    line-height: 0;
+}
+.user input{
+    height: 48px;
+    width: 400px;
+    padding-left: 10px;
+    color: white;
+    background: #141724;
+    border-color: #908e97;
+    border-radius: 10px;
+}
+.user input:hover{
+    border-color: #dcdcdc;
+}
+
+.password{
+    margin-top: 10px;
+    color: white;
+}
+.password p{
+    font-size: 14px;
+    line-height: 0;
+}
+.password input{
+    height: 48px;
+    width: 400px;
+    padding-left: 10px;
+    color: white;
+    background: #141724;
+    border-color: #908e97;
+    border-radius: 10px;
+}
+.password input:hover{
+    border-color: #dcdcdc;
+}
+
+.checkbox{
+    margin-top: 20px;
+    margin-left: -280px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox p{
+    font-size: 14px;
+    line-height: 0;
+}
+.checkbox input{
+    height: 25px;
+    width: 25px;
+    transition: 0.5s;
+}
+.checkbox input:checked{
+    background: #235fe3;
+    box-shadow: 0px 0px 20px #1f54c6;
+}
+
+.main-btn-1{
+    height: 48px;
+    width: 410px;
+    background: #235fe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+.main-btn-2{
+    height: 48px;
+    width: 408px;
+    background: #1d2033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #235fe3;
+    border-radius: 10px;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+.main-btn-1:hover{
+    transform: scale(97%);
+    background: #1f54c6;
+    box-shadow: 0px 0px 20px #1f54c6;
+}
+.main-btn-2:hover{
+    transform: scale(97%);
+    box-shadow: 0px 0px 20px #1f54c6;
+}
+.forgot{
+    color: #5288fd;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------End----------------------*/

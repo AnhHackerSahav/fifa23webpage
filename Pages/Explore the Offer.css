@@ -1,0 +1,800 @@
+*{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #1C1F26;
+    overflow-x: hidden;
+}
+body.open{
+    overflow-y: hidden;
+}
+/*----------------------First Header----------------------*/
+/*----------------------Start----------------------*/
+.firsthder{
+    top: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background: #1C1F26;
+}
+.firsthder div{
+    display: flex;
+    gap: 35px;
+    margin-left: 1335px;
+    align-items: center;
+}
+.firsthder div svg{
+    width: 28px;
+    height: 28px;
+    fill: #8a8a8a;
+}
+.firsthder div svg:hover{
+    fill: white;
+}
+.firsthder div .change1{
+    width: 20px;
+    height: 20px;
+}
+.firsthder div .change2{
+    width: 20px;
+    height: 20px;
+}
+.firsthder div .change3{
+    width: 30px;
+    height: 30px;
+}
+/*----------------------End----------------------*/
+
+/*----------------------Top-Bar----------------------*/
+/*----------------------Start----------------------*/
+.topbar.open{
+    position: sticky;
+    height: 400px;
+    width: 100%;
+    background: #1C1F26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    transition: 0.5s;
+}
+.topbar.open{
+    overflow-y: hidden;
+}
+.topbar.open a{
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+.topbar.open a:hover{
+    transform: translateY(-10%);
+}
+.topbar.open a img{
+    width: 40px;
+    height: 40px;
+}
+.topbar.topbar.open a p{
+    color: white;
+}
+.topbar{
+    height: 0;
+    width: 100%;
+    background: #1C1F26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    transition: 0.5s;
+}
+.topbar a{
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+.topbar a img{
+    width: 0;
+    height: 0;
+    transition: 0.5s;
+}
+.topbar a p{
+    color: transparent;
+    transition: 0.3s;
+}
+/*----------------------End----------------------*/
+
+/*----------------------Second Header----------------------*/
+/*----------------------Start----------------------*/
+.sechder{
+    top: 0;
+    position: sticky;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: white;
+    align-items: center;
+}
+
+.sechder a img{
+    width: 142px;
+    margin-top: 5px;
+    margin-left: 48px;
+}
+
+.sechder .button{
+    margin-left: 55px;
+    display: flex;
+}
+
+.sechder .button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.sechder .button span{
+    margin-top: -10px;
+    font-size: 15px;
+    transition: 0s;
+}
+.sechder .button svg, .bth8 svg{
+    height: 24px;
+    width: 24px;
+    margin-top: -11.75px;
+    transition: 0.5s;
+}
+.sechder .bth8 svg{
+    margin-top: 0px;
+}
+.sechder .bth8 span{
+    margin-left: 12px;
+}
+/*----------------------Function----------------------*/
+/*----------------------Start----------------------*/
+.sechder .button .bth1{
+    width: 170px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth1:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth1:hover{
+    color: #FF5114;
+}
+.sechder .button .bth1 div{
+    position: absolute;
+    height: 0px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.sechder .button .bth1:hover div{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin-top: 265px;
+    margin-left: 200px;
+    border-radius: 5px;
+    background: white;
+}
+
+.sechder .button .bth2{
+    width: 110px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth2:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth2:hover{
+    color: #FF5114;
+}
+.sechder .button .bth2 div{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 125px;
+    border-radius: 5px;
+}
+.sechder .button .bth2:hover div{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    margin-top: 365px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth3{
+    width: 120px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth3:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth3:hover{
+    color: #FF5114;
+}
+.sechder .button .bth3 div{
+    position: absolute;
+    height: 0px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+.sechder .button .bth3:hover div{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 315px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth4{
+    width: 170px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth4:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth4:hover{
+    color: #FF5114;
+}
+.sechder .button .bth4 div{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.sechder .button .bth4:hover div{
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    margin-top: 465px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth5{
+    width: 140px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth5:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth5:hover{
+    color: #FF5114;
+}
+.sechder .button .bth5 div{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.sechder .button .bth5:hover div{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    margin-top: 265px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth6{
+    width: 160px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth6:hover svg{
+    fill: #FF5114;
+    transform: scaleY(-1);
+}
+.sechder .button .bth6:hover{
+    color: #FF5114;
+}
+.sechder .button .bth6 div{
+    position: absolute;
+    height: 0px;
+    width: 225px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.sechder .button .bth6:hover div{
+    position: absolute;
+    height: 200px;
+    width: 225px;
+    margin-top: 265px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.sechder .button .bth7{
+    width: 200px;
+    height: 70px;
+    background: transparent;
+    margin-top: 10px;
+}
+.sechder .button .bth7:hover{
+    color: #FF5114;
+}
+
+.sechder .bth8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21px;
+    width: 173px;
+    height: 44px;
+    background: #FF5114;
+    border: none;
+}
+.sechder .bth8 div{
+    transition: 0.5s;
+}
+.sechder .bth8:hover svg{
+    transform: scaleY(-1);
+}
+.sechder .bth8 div{
+    position: absolute;
+    height: 0px;
+    width: 225px;
+    margin-top: 55px;
+    margin-left: -52px;
+    border-radius: 5px;
+    background: white;
+}
+.sechder .bth8:hover div{
+    position: absolute;
+    height: 400px;
+    width: 225px;
+    margin-top: 475px;
+    border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+/*----------------------End----------------------*/
+/*----------------------End----------------------*/
+
+/*----------------------PageI----------------------*/
+/*----------------------Start----------------------*/
+.page1{
+    width: 100%;
+    height: 490px;
+    background-image: url(/images/explore-background.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+}
+.page1 h1{
+    margin-top: 180px;
+    margin-left: 200px;
+    font-size: 40px;
+    width: 500px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.page1 h1::after{
+    content: '';
+    width: 230px;
+    height: 5px;
+    background: black;
+    margin-top: 20px;
+}
+/*----------------------End----------------------*/
+
+/*----------------------PageII----------------------*/
+/*----------------------Start----------------------*/
+.page2{
+    padding-top: 64px;
+    padding-left: 200px;
+    width: 100%;
+    height: 1400px;
+    background: #252325;
+    color: white;
+}
+.page2 .line1{
+    width: 1100px;
+}
+.page2 .line1 p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.page2 .line2 h1{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.page2 .line2 p{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.page2 .line2 p::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin-right: 30px;
+    background: #FF5114;
+}
+.page2 .scroll-bg{
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 71.09%;
+    height: 440px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding-bottom: 50px;
+    scroll-snap-type: x mandatory;
+}
+.page2 .scroll-bg div img{
+    scroll-snap-align: start;
+}
+.page2 .scroll-bg::-webkit-scrollbar{
+    background: transparent;
+    border: 1px solid #575757;
+    border-radius: 25px;
+    height: 15px;
+}
+.page2 .scroll-bg::-webkit-scrollbar:hover{
+    background: #575757;
+}
+.page2 .scroll-bg::-webkit-scrollbar-thumb{
+    height: 20px;
+    background: #8a8a8a;
+    border-radius: 25px;
+}
+.page2 .scroll-bg::-webkit-scrollbar-thumb:hover{
+    background: #cacaca;
+}
+.page2 .scroll-bg div{
+    height: 100%;
+    width: auto;
+    display: flex;
+    gap: 30px;
+}
+.page2 .line3{
+    margin-top: 70px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.page2 .line3 a{
+    color: #FF5114;
+}
+/*----------------------End----------------------*/
+
+/*----------------------PageIII----------------------*/
+/*----------------------Start----------------------*/
+.page3{
+    padding-top: 10px;
+    padding-left: 200px;
+    width: 100%;
+    height: 1000px;
+    background: #252325;
+    color: white;
+}
+.page3 .line1 h1{
+    margin-top: 40px;
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 0;
+    margin-bottom: 70px;
+}
+.page3 .line2 h1{
+    width: 1100px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.page3 .line2 p{
+    width: 1100px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*----------------------End----------------------*/
+
+/*----------------------PageIV----------------------*/
+/*----------------------Start----------------------*/
+.page4{
+    padding-top: 10px;
+    padding-left: 200px;
+    width: 100%;
+    height: 440px;
+    background: #252325;
+    color: white;
+}
+.page4 .line1{
+    display: flex;
+    flex-direction: column;
+}
+.page4 .line1::after{
+    content: '';
+    height: 2px;
+    width: 1100px;
+    background: white;
+}
+.page4 .line1 p,.page4 .line1 i{
+    width: 1100px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.page4 .line2 p{
+    width: 1100px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 5px;
+}
+.page4 .line2 p a{
+    color: #FF5114;
+}
+/*----------------------End----------------------*/
+
+
+/*----------------------PageV----------------------*/
+/*----------------------Start----------------------*/
+.page5{
+    padding-top: 10px;
+    width: 100%;
+    height: 700px;
+    background: #252325;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page5 .pg5-text h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 0;
+    margin-bottom: 60px;
+}
+.page5 .box{
+    width: 70%;
+    height: 480px;
+    display: flex;
+    gap: 15px;
+}
+.page5 .box .inbox{
+    height: 100%;
+    width: 350px;
+    box-shadow: 0px 3px 4px #131313;
+    background: rgb(38, 38, 41);
+    transition: 0.3s;
+}
+.page5 .box .inbox .pic-box img{
+    width: 100%;
+}
+.page5 .box .inbox .text{
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 17px;
+}
+.page5 .box .inbox .text span{
+    color: #FF5114;
+    line-height: 0;
+}
+.page5 .box .inbox .text h1{
+    margin-bottom: 0;
+}
+.page5 .box .inbox .text p{
+    width: 295px;
+}
+.page5 .box .inbox:hover{
+    transform: translateY(-2%);
+    box-shadow: 0px 15px 15px #131313;
+}
+/*----------------------End----------------------*/
+
+/*----------------------TextII----------------------*/
+/*----------------------Start----------------------*/
+.text2{
+    padding-left: 150px;
+    height: 65px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+    background: #1C1F26;
+    display: flex;
+    align-items: center;
+}
+.text2 a{
+    color: #FF5114;
+}
+/*----------------------End----------------------*/
+
+/*----------------------PageX----------------------*/
+/*----------------------Start----------------------*/
+.page10{
+    height: 370px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #252325;
+}
+.page10 .chl1{
+    height: 120px;
+    width: 75%;
+    display: flex;
+    border-bottom: 1px solid #8a8a8a;
+}
+.page10 .chl1 .fifa23{
+    height: 100%;
+    width: 700px;
+    color: rgb(222, 222, 222);
+}
+.page10 .chl1 .fifa23 h3{
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.page10 .chl1 .fifa23 div{
+    display: flex;
+    gap: 40px;
+}
+.page10 .chl1 .fifa23 a{
+    font-size: 15px;
+    color: #8a8a8a;
+}
+.page10 .chl1 .fifa23 a:hover{
+    color: #FF5114;
+}
+.page10 .chl1 .media{
+    margin-left: 240px;
+    height: 100%;
+    width: 250px;
+}
+.page10 .chl1 .media h3{
+    line-height: 0;
+    padding-left: 110px;
+    margin-bottom: 30px;
+    color: rgb(222, 222, 222);
+}
+.page10 .chl1 .media div{
+    padding-left: 0px;
+    display: flex;
+    gap: 40px;
+}
+.page10 .chl1 .media div svg{
+    height: 30px;
+    width: 30px;
+    fill: rgb(222, 222, 222);
+    transition: 0.2s;
+}
+.page10 .chl1 .media div svg:hover{
+    transform: scale(120%);
+}
+.page10 .chl2{
+    height: 140px;
+    width: 75%;
+}
+.page10 .chl2 img{
+    padding-top: 30px;
+}
+.page10 .chl2 .rate{
+    margin-left: 1002.25px;
+}
+/*----------------------End----------------------*/
+
+/*----------------------PageXI----------------------*/
+/*----------------------Start----------------------*/
+.page11{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+.page11 .chl1 img{
+    padding-top: 30px;
+    padding-right: 20px;
+    width: 64px;
+}
+.page11 .chl2 .header{
+    display: flex;
+    gap: 60px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page11 .chl2 .text{
+    display: flex;
+    gap: 40px;
+    line-height: 0;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page11 .chl2 .change{
+    line-height: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page11 .chl2 #change{
+    margin-top: 40px;
+}
+.page11 .chl3{
+    padding: 25px;
+}
+.page11 .chl3 img{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.page11 .chl3 div{
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    width: 70px;
+    color: #4c4c4c;
+    background: transparent;
+    border: 1.7px solid #8a8a8a;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+.page11 .chl3 div:hover{
+    transform: scale(105%);
+}
+/*----------------------End----------------------*/
